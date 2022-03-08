@@ -1,0 +1,26 @@
+{
+  "name": "jascha030/di-helpers",
+  "autoload": {
+    "files": "includes/container.php"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jascha030\\DI\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jascha030",
+      "email": "contact@jaschavanaalst.nl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php-di/php-di": "^6.3",
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.7",
+    "phpunit/phpunit": "^9.5"
+  }
+}
